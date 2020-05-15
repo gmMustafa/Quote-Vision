@@ -12,7 +12,7 @@ Quotes Data [REST API](https://type.fit/api/quotes)
 ### Screens
 
   Splash Screen              | Fetching Data               | Home Screen                   :---------------------------:|:---------------------------:|:---------------------------:
- ![](/screens/splash.jpg)    |![](/screens/Downloading.jpg)| ![](/screens/Home.jpg)     
+ ![](/screens/Splash.jpg)    |![](/screens/Downloading.jpg)| ![](/screens/Home.jpg)     
 
 
 
