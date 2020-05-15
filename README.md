@@ -7,9 +7,9 @@ Quotes Data [REST API](https://type.fit/api/quotes)
 
 
 ### Screens 
-Main Screen                |  Mian Screen With Nodes   | Find Node                 |
+Splash                     |  Fetching Data            | Home                      |
 :-------------------------:|:-------------------------:|:-------------------------:|
-![](/screens/1.jpg)        |  ![](/screens/2.jpg)      |![](/screens/3.jpg)        |
+![](/screens/3.jpg)        |  ![](/screens/1.jpg)      |![](/screens/2.jpg)        |
 
 
 
