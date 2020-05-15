@@ -5,6 +5,22 @@
 
 Quotes Data [REST API](https://type.fit/api/quotes)
 
+
+
+
+
+### Screens
+
+  Splash Screen              | Fetching Data               | Home Screen                   :---------------------------:|:---------------------------:|:---------------------------:
+ ![](/screens/splash.jpg)    |![](/screens/Downloading.jpg)| ![](/screens/Home.jpg)     
+
+
+
+
+
+
+
+
 ### Setup
 Add dependencies to your build.gradle (app-level) 
 
@@ -73,10 +89,6 @@ Add vector drawalbes support to build.gradel (app-level)
 
 
 
-## Screens
-
-Splash Screen                |  Fetching Data              | Home Screen                |   :---------------------------:|:---------------------------:|:---------------------------:
-![](/screens/splash.jpg)     |![](/screens/Downloading.jpg)|![](/screens/Home.jpg)      |
 
 
 
