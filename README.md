@@ -2,44 +2,38 @@
 
 ### Quotes App Using RxJava2, Daggar2, and Retrofit. 
 
+ 
 
 Quotes Data [REST API](https://type.fit/api/quotes)
-
-
-### Screens 
-Splash                     |  Fetching Data            | Home                      |
-:-------------------------:|:-------------------------:|:-------------------------:|
-![](/screens/3.jpg)        |  ![](/screens/1.jpg)      |![](/screens/2.jpg)        |
-
-
-
 
 ### Setup
 Add dependencies to your build.gradle (app-level) 
 
 ```
-//RecyclerView
-    implementation 'androidx.recyclerview:recyclerview:1.1.0'
-    //GSON
-    implementation 'com.google.code.gson:gson:2.8.6'
-    //Retrofit
-    implementation 'com.squareup.retrofit2:retrofit:2.8.1'
-    //Retrofit to GSON Converter
-    implementation 'com.squareup.retrofit2:converter-gson:2.4.0'
-    //RXJAVA2
-    implementation 'io.reactivex.rxjava2:rxandroid:2.0.1'
-    implementation 'com.squareup.retrofit2:adapter-rxjava2:2.8.1'
+dependencies {
+        //RecyclerView
+            implementation 'androidx.recyclerview:recyclerview:1.1.0'
+            //GSON
+            implementation 'com.google.code.gson:gson:2.8.6'
+            //Retrofit
+            implementation 'com.squareup.retrofit2:retrofit:2.8.1'
+            //Retrofit to GSON Converter
+            implementation 'com.squareup.retrofit2:converter-gson:2.4.0'
+            //RXJAVA2
+            implementation 'io.reactivex.rxjava2:rxandroid:2.0.1'
+            implementation 'com.squareup.retrofit2:adapter-rxjava2:2.8.1'
 
-    //Daggar2
-    api 'com.google.dagger:dagger:2.27'
-    annotationProcessor 'com.google.dagger:dagger-compiler:2.27'
+            //Daggar2
+            api 'com.google.dagger:dagger:2.27'
+            annotationProcessor 'com.google.dagger:dagger-compiler:2.27'
 
-    api 'com.google.dagger:dagger-android:2.15'
-    api 'com.google.dagger:dagger-android-support:2.15'
-    annotationProcessor 'com.google.dagger:dagger-android-processor:2.15'
+            api 'com.google.dagger:dagger-android:2.15'
+            api 'com.google.dagger:dagger-android-support:2.15'
+            annotationProcessor 'com.google.dagger:dagger-android-processor:2.15'
 
-    //progrss bar
-    implementation 'com.kaopiz:kprogresshud:1.2.0'
+            //progrss bar
+            implementation 'com.kaopiz:kprogresshud:1.2.0'
+    }
 ```
 
 
@@ -56,7 +50,6 @@ allprojects {
 ```
 
 
-
 Add Java support to build.gradel (app-level)
 ```
    android{
@@ -67,6 +60,7 @@ Add Java support to build.gradel (app-level)
       }
     }
 ```
+
 
 Add vector drawalbes support to build.gradel (app-level)
 ```
@@ -79,17 +73,7 @@ Add vector drawalbes support to build.gradel (app-level)
 ```
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+### Screens 
+Splash                     |  Fetching Data            | Home                      |
+:-------------------------:|:-------------------------:|:-------------------------:|
+![](/screens/3.jpg)        |  ![](/screens/1.jpg)      |![](/screens/2.jpg)        |
