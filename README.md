@@ -6,11 +6,10 @@
 Quotes Data [REST API](https://type.fit/api/quotes)
 
 
-### Screens
-
-  Splash Screen              | Fetching Data               | Home Screen                  :---------------------------:|:---------------------------:|:---------------------------:
- ![](/screens/3.jpg)         |![](/screens/1.jpg)          | ![](/screens/2.jpg)     
-
+### Screens 
+Main Screen                |  Mian Screen With Nodes   | Find Node                 |
+:-------------------------:|:-------------------------:|:-------------------------:|
+![](/screens/1.jpg)        |  ![](/screens/2.jpg)      |![](/screens/3.jpg)        |
 
 
 
